@@ -24,3 +24,21 @@
 
     $('#my-form').submit( processForm );
 })(jQuery);
+
+
+function getAllMovies(){
+
+    $.ajax({
+        url: "https://localhost:44325/api/movie",
+        contentType: 'application/json',
+        success: function( data, textStatus, jQxhr ){
+            console.log(data);
+        },
+        error: function( jqXhr, textStatus, errorThrown ){
+            console.log(errorThrown);
+        }
+    });
+
+
+
+}
