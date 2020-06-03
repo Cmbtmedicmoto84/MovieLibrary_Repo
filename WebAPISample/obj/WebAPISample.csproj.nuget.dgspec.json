@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj": {}
+    "C:\\Users\\brad\\source\\repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj": {
+    "C:\\Users\\brad\\source\\repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
+        "projectUniqueName": "C:\\Users\\brad\\source\\repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
         "projectName": "WebAPISample",
-        "projectPath": "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
+        "projectPath": "C:\\Users\\brad\\source\\repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
         "packagesPath": "C:\\Users\\brad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\obj\\",
+        "outputPath": "C:\\Users\\brad\\source\\repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brad\\AppData\\Roaming\\NuGet\\NuGet.Config",

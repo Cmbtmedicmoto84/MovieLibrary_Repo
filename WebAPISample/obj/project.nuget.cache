@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BL5rG8ihanJLLT2G9Y+lShSXHue1RNozNsqDpMONkUeHiM3RuPzPGnmQ2j6EV/euOHGuYB8Bz7sPJyWzDC8Oiw==",
+  "dgSpecHash": "y7oQN6Px+qn5R3OLWx+9wegIjflIKkqDnvhi9fl4hLgAJFQhRyMXC038mae11qvt8kaIqXRJ8QFl4E3sBsPtYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
+  "projectFilePath": "C:\\Users\\brad\\source\\repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brad\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\brad\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
