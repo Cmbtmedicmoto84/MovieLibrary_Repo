@@ -24,3 +24,8 @@
 
     $('#my-form').submit( processForm );
 })(jQuery);
+
+
+function getAllMovies(){
+    console.log("ViewAllMovies");
+}
