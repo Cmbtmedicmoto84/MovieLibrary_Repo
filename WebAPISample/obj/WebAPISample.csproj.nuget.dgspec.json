@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\MovieLibrary_Project\\WebAPISample\\WebAPISample.csproj": {}
+    "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\MovieLibrary_Project\\WebAPISample\\WebAPISample.csproj": {
+    "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\MovieLibrary_Project\\WebAPISample\\WebAPISample.csproj",
+        "projectUniqueName": "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
         "projectName": "WebAPISample",
-        "projectPath": "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\MovieLibrary_Project\\WebAPISample\\WebAPISample.csproj",
-        "packagesPath": "C:\\Users\\SMORI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\MovieLibrary_Project\\WebAPISample\\obj\\",
+        "projectPath": "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\WebAPISample.csproj",
+        "packagesPath": "C:\\Users\\brad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brad\\Source\\Repos\\Cmbtmedicmoto84\\MovieLibrary_Repo\\WebAPISample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SMORI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
