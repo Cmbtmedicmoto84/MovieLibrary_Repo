@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Client",
     "\\WebAPISample",
-    "\\WebAPISample\\Models"
+    "\\WebAPISample\\Controllers"
   ],
-  "SelectedNode": "\\WebAPISample\\Models\\Movie.cs",
+  "SelectedNode": "\\WebAPISample\\Controllers\\MovieController.cs",
   "PreviewInSolutionExplorer": false
 }
