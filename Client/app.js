@@ -38,7 +38,12 @@ function getAllMovies(){
             console.log(errorThrown);
         }
     });
-
-
-
 }
+
+function jqMovieInput() {
+    let valueofInput = $("#Input").val();
+
+    console.log(valueOfInput);
+
+    $("#Input").val("")
+} 
