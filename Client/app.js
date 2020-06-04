@@ -78,7 +78,7 @@ function putMovie(){
     $.ajax({
         url: 'https://localhost:44325/api/movie',
         dataType: 'json',
-        type: 'get',
+        type: 'put',
         contentType: 'application/json',
         data: JSON.replaceWith(dict),
         success: function( data, textStatus, jQxhr){
