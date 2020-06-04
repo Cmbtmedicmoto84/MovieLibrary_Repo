@@ -33,6 +33,7 @@ function getAllMovies(){
         contentType: 'application/json',
         success: function( data, textStatus, jQxhr ){
             console.log(data);
+
         },
         error: function( jqXhr, textStatus, errorThrown ){
             console.log(errorThrown);
