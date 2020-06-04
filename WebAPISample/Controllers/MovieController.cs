@@ -32,7 +32,6 @@ namespace WebAPISample.Controllers
         public IActionResult Get(int id)
         {
             // Retrieve movie by id from db logic
-
             var movieInDB = _context.Movies.Where(m => m.MovieId == id).SingleOrDefault();
             // return Ok(movie);
 
