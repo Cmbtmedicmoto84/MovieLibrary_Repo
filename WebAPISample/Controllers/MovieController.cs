@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -23,8 +23,8 @@ namespace WebAPISample.Controllers
         public IActionResult Get()
         {
             // Retrieve all movies from db logic
-
-            return Ok(_context.Movies);
+            var movie = _context.Movies.ToList();
+            return Ok(movie);
         }
 
         // GET api/movie/5
@@ -32,7 +32,10 @@ namespace WebAPISample.Controllers
         public IActionResult Get(int id)
         {
             // Retrieve movie by id from db logic
-            var movieInDB = _context.Movies.Where(m => m.MovieId == id).SingleOrDefault();
+
+            var movie = _context.Movies.Where(m => m.MovieId == id).SingleOrDefault();
+
+
             // return Ok(movie);
 
             return Ok();
@@ -44,7 +47,7 @@ namespace WebAPISample.Controllers
         {
             // Create movie in db logic
 
-            _context.Movies.Add(value);
+            var movie = _context.Movies.Add(value);
             _context.SaveChanges();
             return Ok(value);
 
@@ -56,11 +59,9 @@ namespace WebAPISample.Controllers
         {
             // Update movie in db logic
 
-            var updateMovie = _context.Movies.Find(movie);
-            updateMovie.Director = movie.Director;
-            updateMovie.Genre = movie.Genre;
-            updateMovie.Title = movie.Title;
-            return Ok();
+            _context.Movies.Update(movie);
+            _context.SaveChanges();
+            return Ok(movie);
         }
 
         // DELETE api/movie/5
@@ -69,13 +70,9 @@ namespace WebAPISample.Controllers
         {
             // Delete movie from db logic
 
-            var deleteMovie = _context.Movies.Where(d => d.MovieId == id).FirstOrDefault();
-            if (deleteMovie != null)
-            {
-                _context.Movies.Remove(deleteMovie);
-                _context.SaveChanges();
-
-            }
+            var movie = _context.Movies.Where(m => m.MovieId == id).FirstOrDefault();
+            _context.Movies.Remove(movie);
+            _context.SaveChanges();
             return Ok();
         }
     }
