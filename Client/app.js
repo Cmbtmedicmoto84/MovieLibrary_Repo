@@ -58,7 +58,29 @@ function postMovie(){
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',
-        data: JSON.appent(dict),
+        data: JSON.append(dict),
+        success: function( data, textStatus, jQxhr){
+            $('#response pre').html(data);
+        },
+        error: function(jqXhr, textStatus, errorThrown){
+            console.log(errorThrown);
+        }
+    });
+
+    e.preventDefault();
+}
+
+$('#my-form').submit(processForm);
+
+
+
+function putMovie(){
+    $.ajax({
+        url: 'https://localhost:44325/api/movie',
+        dataType: 'json',
+        type: 'get',
+        contentType: 'application/json',
+        data: JSON.replaceWith(dict),
         success: function( data, textStatus, jQxhr){
             $('#response pre').html(data);
         },
