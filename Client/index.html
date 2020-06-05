@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>jQuery AJAX POST Form</title>
+        <title>Movie Library</title>
         <meta charset="utf-8">
     </head>
     <body>
@@ -17,7 +17,16 @@
         <button type="submit">Submit</button>
     </form>
     <button type="button" onclick="getMovieById()">Find a movie by single criteria!</button>
+    <br>
     <button type="button" onclick="getAllMovies()">View the entire library here!</button>
+    <br>
+    <button type="button" onclick="postMovie()">Add a movie to the database!</button>
+    <br>
+    <button type="button" onclick="putMovie()">Edit the information for an existing movie in our database</buttom>
+    <button type="button" onclick="deleteMovie()">Delete an existing movie from the database</button>
+
+
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
