@@ -43,6 +43,8 @@ function getAllMovies(){
     });
 }
 
+$('#my-form').submit(processForm);
+
 
 function getMovieById(){
     $("getMovieById").html("");
@@ -69,6 +71,8 @@ function jqMovieInput() {
 
     $("#Input").val("")
 } 
+
+$('#my-form').submit(processForm);
 
 
 function postMovie(){
