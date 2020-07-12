@@ -2,7 +2,7 @@
 
 namespace WebAPISample.Migrations
 {
-    public partial class initial : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -19,6 +19,18 @@ namespace WebAPISample.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Movies", x => x.MovieId);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Movies",
+                columns: new[] { "MovieId", "Director", "Genre", "Title" },
+                values: new object[,]
+                {
+                    { 1, "Martin Scorsese", "Drama", "The Departed" },
+                    { 2, "Christopher Nolan", "Drama", "The Dark Knight" },
+                    { 3, "Christopher Nolan", "Drama", "Inception" },
+                    { 4, "David Gordon Green", "Comedy", "Pineapple Express" },
+                    { 5, "John McTiernan", "Action", "Die Hard" }
                 });
         }
 
